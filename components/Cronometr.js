@@ -6,7 +6,7 @@ let ss = 0;
 let mm = 0;
 let hh = 0;
 
-export default function Cronometro() {
+export default function Cronometr() {
   
     const [numero, setNumero] = useState("00:00:00");
     const [botao, setBotao] = useState("Iniciar");

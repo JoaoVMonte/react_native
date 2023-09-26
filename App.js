@@ -1,13 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Cronometro from './components/Cronometro';
+import NumeroAleatorio from './components/NumeroAleatorio';
 
 
 export default function App() {
   return (
     <>
-    <Cronometro/>
-        </>
+    <NumeroAleatorio/>
+    </>
   );
 }
 
